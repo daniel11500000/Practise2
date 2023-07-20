@@ -1,0 +1,91 @@
+:root {
+  --blue: rgb(94, 189, 233);
+  --red: rgb(218, 55, 55);
+  --darkBlue: rgb(10, 10, 51);
+  --grey-Subtext: rgb(158, 158, 158);
+  --fontSize-Nav: clamp(0.5rem, 1rem + 1rem, 2.5rem)
+  --fontSize-Btn: clamp(1.4rem, 0.7vw + 0.7rem, 2rem);
+  --fontSize-300: clamp(1rem, 0.4vw + 0.4rem, 1.4rem);
+  --fontSize-400: clamp(1rem, 0.5vw + 0.5rem, 1.75rem);
+  --fontSize-500: clamp(1.25rem, 1vw + 0.8rem, 2.5rem);
+  --fontSize-600: clamp(2rem, 1.2vw + 1rem, 4rem);
+  --fontSize-700: clamp(2.5rem, 1.5vw + 1rem, 5rem);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+p {
+  font-size: var(--fontSize-400);
+  color: var(--grey-Subtext);
+}
+h1 {
+  font-size: var(--fontSize-700);
+}
+h2 {
+  font-size: var(--fontSize-700);
+}
+h3 {
+  font-size: var(--fontSize-500);
+}
+nav {
+  font-size: var(--fontSize-Nav);
+  text-transform: uppercase;
+  font-weight: 200;
+}
+nav > h3 {
+  font-weight: 600;
+  font-size: var(--fontSize-500);
+}
+button {
+  font-weight: 600;
+}
+.arrowHeader {
+  font-size: var(--fontSize-500);
+}
+.servicesItem-Anchor {
+  font-size: var(--fontSize-400);
+}
+.aboutItem-Desc {
+  color: rgb(158, 158, 158);
+}
+.pricingItemSub {
+  line-height: 1.9rem;
+}
+.pricingItem-Price {
+  margin-block: 0.5rem;
+}
+.pricingItem-Tier {
+  margin-block: 0.5rem;
+  color: var(--blue);
+  font-size: var(--fontSize-400);
+    text-transform: uppercase;
+}
+.pricingItem-Desc {
+  font-size: var(--fontSize-300);
+
+}
+.pricingItem > button {
+  height: 3rem;
+}
+.testItem-Name {
+  color: var(--blue);
+  font-size: var(--fontSize-600);
+  font-weight: 600;
+  margin-block: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.testItem-Title {
+  color: var(--red);
+  font-size: var(--fontSize-300);
+  font-weight: 200;
+  margin: 0;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.footerContainer {
+  font-size: var(--fontSize-400);
+}
+.footerSecContainer {
+  font-size: var(--fontSize-300);
+}

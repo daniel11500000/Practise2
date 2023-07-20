@@ -1,0 +1,115 @@
+@media screen and (min-width: 850px) {
+  .servicesContainer {
+    padding-inline: clamp(3rem, 7vw, 10rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo {
+    position: absolute;
+    left: 1rem;
+  }
+  .headerItem-Btn {
+    height: 3.5rem;
+    width: 15rem;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+  }
+  .servicesSubContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: clamp(2rem, 6vw, 5rem);
+  }
+  .servicesItem {
+    color: black;
+    filter: drop-shadow(1px 1px 10px rgb(221, 221, 221));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(1rem, 3vw, 2rem);
+    background-color: rgb(247, 245, 245);
+  }
+  .servicesItem-Img {
+    height: clamp(3, 5rem, 8vw, 6.5rem);
+    width: clamp(3, 5rem, 8vw, 6.5rem);
+  }
+  .imgContainer {
+    background-color: var(--blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .servicesItem-Desc {
+    width: clamp(7rem, 10vw, 20rem);
+  }
+  .aboutItem {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+  }
+  .aboutItem-Info {
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .aboutImg {
+    width: max(15vw, 45rem);
+  }
+  #manage {
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+  .manageContainer {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding: 0;
+  }
+  .manageSecContainer {
+    background-color: var(--darkBlue);
+    height: max(30rem, 40vh, 45rem);
+    color: white;
+    width: 70%;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: flex-end;
+  }
+  .manageTextContainer {
+    padding-left: 15rem;
+    width: 30rem;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .manageImg {
+    position: absolute;
+    justify-self: center;
+    left: 5rem;
+    max-width: clamp(20rem, 35vw, 55rem);
+  }
+  .pricingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricingItemContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: clamp(1rem, 1.5vw, 3rem);
+    margin: 1rem;
+    padding: clamp(1rem, 2vw, 2.5rem);
+  }
+  .pricingItemSub {
+    padding: clamp(2rem, 3.5vw, 4rem);
+  }
+}
